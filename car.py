@@ -21,7 +21,7 @@ class carcompany(db.Model):
 
 
 
-@car.route("/carcompany", methods=["GET"])
+@car.route("/carcompany", methods=["GET"])jjjjj
 def get_carcompanys():
 	result = db.engine.execute("select * from carcompany")
 	response = []
